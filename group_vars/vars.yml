@@ -10,3 +10,6 @@ PACKAGES:
   - kubectl
   - kubernetes-cni
   - python-pip
+
+master_ip: 192.168.0.150
+

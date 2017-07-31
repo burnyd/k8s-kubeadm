@@ -1,0 +1,12 @@
+---
+- roles:
+   - master
+
+- hosts: minions
+  become: true
+  vars_files:
+    - group_vars/vars.yml
+  strategy: free
+  remote_user: arista
+  roles:
+   - minions

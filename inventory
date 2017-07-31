@@ -1,2 +1,5 @@
 [minions]
 ubuntu-k8s-[1:4]
+
+[master]
+192.168.0.150
