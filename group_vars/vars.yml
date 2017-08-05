@@ -11,5 +11,9 @@ PACKAGES:
   - kubernetes-cni
   - python-pip
 
-master_ip: 192.168.0.150
+master_ip: 10.1.1.102
 
+[all:vars]
+ansible_connection=ssh 
+ansible_ssh_user=pirate 
+ansible_ssh_pass=hypriot
